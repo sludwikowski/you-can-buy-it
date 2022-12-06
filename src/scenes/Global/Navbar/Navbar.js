@@ -86,7 +86,7 @@ export const Navbar = (props) => {
             }}
           >
             <IconButton
-              omClick={() => dispatch(setIsCartOpen({}))}
+              onClick={() => dispatch(setIsCartOpen({}))}
               sx={{ color: 'black' }}
             >
               <ShoppingBagOutlined/>
