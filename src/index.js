@@ -13,7 +13,7 @@ import { ThemeProvider, CssBaseline } from '@mui/material'
 import { theme } from './theme'
 
 const store = configureStore({
-  reducer: { cart: cartReducer() }
+  reducer: { cart: cartReducer }
 })
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
