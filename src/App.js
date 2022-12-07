@@ -7,12 +7,12 @@ import {
   useLocation
 } from 'react-router-dom'
 
-import Home from './scenes/Home/Home'
-import ItemDetails from './scenes/ItemDetails/ItemDetails'
-import Checkout from './scenes/Checkout/Checkout'
-import Confirmation from './scenes/Checkout/Confirmation'
-import Navbar from './scenes/Global/Navbar'
-import CartMenu from './scenes/Global/CartMenu'
+import Home from './pages/Home/Home'
+import ItemDetails from './components/ItemDetails/ItemDetails'
+import Checkout from './components/Checkout/Checkout'
+import Confirmation from './components/Confirmation/Confirmation'
+import Navbar from './components/Navbar'
+import CartMenu from './components/CartMenu'
 
 const ScrollToTop = () => {
   const { pathname } = useLocation()
@@ -48,7 +48,7 @@ function App () {
             element={<Confirmation/>}
           />
         </Routes>
-        <CartMenu />
+        <CartMenu/>
       </BrowserRouter>
     </div>
   )

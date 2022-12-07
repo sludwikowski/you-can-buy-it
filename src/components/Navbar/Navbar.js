@@ -8,9 +8,9 @@ import { useNavigate } from 'react-router-dom'
 import { Box, Badge, IconButton } from '@mui/material'
 import { PersonOutline, ShoppingBagOutlined, MenuOutlined, SearchOutlined } from '@mui/icons-material'
 
-import { shades } from '../../../theme'
+import { shades } from '../../theme'
 
-import { setIsCartOpen } from '../../../state'
+import { setIsCartOpen } from '../../state'
 
 export const Navbar = (props) => {
   const navigate = useNavigate()
